@@ -1,5 +1,6 @@
 {
     "name": "paquettg/php-html-parser",
+    "version": "3.1.2-php84",
     "type": "library",
     "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
     "keywords": ["html", "dom", "parser"],
@@ -34,5 +35,10 @@
         "psr-4": { 
         	"PHPHtmlParser\\": "src/PHPHtmlParser"
        	}
+    },
+    "config": {
+        "allow-plugins": {
+            "ocramius/package-versions": true
+        }
     }
 }
